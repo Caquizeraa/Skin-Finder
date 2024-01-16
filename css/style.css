@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+body{
+    text-align: center;
+    min-height: 100vh;
+}
+
+.page_title{
+    padding: 1%;
+    color: white;
+    text-shadow: 2px 0 #333, -2px 0 #333, 0 2px #333, 0 -2px #333,
+               1px 1px #333, -1px -1px #333, 1px -1px #333, -1px 1px #333;
+
+}
+
+main{
+    display: flex;
+    min-height: 100vh;
+    background-image: url("../images/bkgr.jpg");
+    background-size: cover;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skin_img{
+    padding: 3%;
+    padding-bottom: 1%;
+    width: 100%;
+    max-width: 300px;
+    left: 50%;
+}
+
+.form{
+    padding: 1%;
+    width: 60vw;
+}
+
+.input_search{
+    width:  clamp(170px, 50%, 50%);;
+    padding: 1%;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: clamp(8px, 5vw, 1rem);
+}
+
+button{
+    font-size: clamp(8px, 5vw, 1rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(150px, 11vw, 6vw);
+    height: clamp(35px, 2.4vw, 6vw);
+    padding: .8%;
+    background-color: white;
+    border-radius: 10px;
+}
+.icon{
+    padding-left: 2%;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-decoration: none;
+}
